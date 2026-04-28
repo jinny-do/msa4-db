@@ -19,7 +19,7 @@ SELECT
 	emp_id
 FROM salaries
 WHERE
-	(salary BETWEEN 6000000 AND 70000000)
+	salary BETWEEN 6000000 AND 70000000
 	AND end_at IS NULL 
 ;
 
